@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM multiarch/alpine:aarch64-edge
 COPY . /subweb
 WORKDIR /subweb
 RUN apk add --no-cache python3-dev  \
